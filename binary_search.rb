@@ -1,4 +1,3 @@
-require 'pry'
 # rubocop:disable all
 # BinarySearch using Recursion
 class BinarySearch
