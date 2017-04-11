@@ -8,7 +8,7 @@ describe 'QuickSort' do
   end
 
   context 'Returns sorted array' do
-    it { expect(QuickSort.new([5, 1, 2, 3]).sort).to eq [1, 2, 3, 5] }
-    it { expect(QuickSort.new([-5, 9999, -1, 1, -1, 0, 1]).sort).to eq [-5, -1, -1, 0, 1, 1, 9999] }
+    it { expect(QuickSort.new([5, 1, 2, 3]).quick_sort).to eq [1, 2, 3, 5] }
+    it { expect(QuickSort.new([-5, 9999, -1, 1, -1, 0, 1]).quick_sort).to eq [-5, -1, -1, 0, 1, 1, 9999] }
   end
 end

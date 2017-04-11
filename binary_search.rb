@@ -2,6 +2,7 @@
 # BinarySearch using Recursion
 class BinarySearch
   attr_reader :sorted_arr, :value
+
   def initialize(sorted_arr, value)
     raise ArgumentError unless sorted_arr.class == Array
     raise ArgumentError unless value.class == Fixnum
