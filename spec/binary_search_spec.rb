@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../binary_search.rb'
+require_relative '../searching/binary_search.rb'
 # rubocop:disable all
 describe 'BinarySearch' do
   context 'Receive two agruments: an array & integer value' do

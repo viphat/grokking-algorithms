@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../quick_sort.rb'
+require_relative '../sorting/quick_sort.rb'
 # rubocop:disable all
 describe 'QuickSort' do
   context 'Receive array as agrument' do

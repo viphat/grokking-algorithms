@@ -45,7 +45,6 @@ class MergeSort
       sorted_arr[sorted_arr_index] = r_arr.shift
       sorted_arr_index += 1
     end
-    p sorted_arr
     sorted_arr
   end
 end

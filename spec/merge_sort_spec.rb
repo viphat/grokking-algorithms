@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../merge_sort.rb'
+require_relative '../sorting/merge_sort.rb'
 # rubocop:disable all
 describe 'MergeSort' do
   context 'Receive array as agrument' do
